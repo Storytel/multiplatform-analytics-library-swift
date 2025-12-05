@@ -12,7 +12,7 @@ let package = Package(
    targets: [
       .binaryTarget(
          name: "MultiplatformAnalytics",
-         url: "https://github.com/Storytel/multiplatform-analytics-library-swift/releases/download/0.0.3/MultiplatformAnalytics.xcframework.zip",
+         url: "https://github.com/Storytel/multiplatform-analytics-library-swift/releases/download/0.0.5/MultiplatformAnalytics.xcframework.zip",
          checksum:"49adc5da8c1894ccdde6d419cf13937f60e4b1817ba6202789cf4b2bb005701e")
    ]
 )
