@@ -1,0 +1,39 @@
+version: 2
+
+### EXAMPLE DEPENDABOT CONFIGURATION FILE ###
+# This file is used to configure Dependabot for the repository.
+# Uncomment and edit the sections below as needed.
+
+#registries:
+#  npm-registry-npm-pkg-github-com:
+#    type: npm-registry
+#    url: https://npm.pkg.github.com
+#    token: ${{secrets.GH_PACKAGES_READ}}
+
+updates:
+  #- package-ecosystem: npm  # Supported ecosystems: https://docs.github.com/en/code-security/dependabot/ecosystems-supported-by-dependabot/supported-ecosystems-and-repositories
+  #  directory: "/"  # Path to the ecosystem's dependency specification file
+  #  schedule:   # When and how often to check for updates: https://docs.github.com/en/code-security/dependabot/ecosystems-supported-by-dependabot/supported-ecosystems-and-repositories
+  #    interval: daily
+  #    time: "08:00"
+  #  open-pull-requests-limit: 10  # Maximum number of open pull requests Dependabot can create at once. Security updates will not count towards this limit.
+  #  registries: "*"  # Which registries to use for this ecosystem. Use "*" to use all registries: https://docs.github.com/en/code-security/dependabot/ecosystems-supported-by-dependabot/supported-ecosystems-and-repositories
+  #  target-branch: "main"  # The branch to target for pull requests created by Dependabot.
+  #  cooldown:  # How long to wait before suggesting to update to the latest version of a dependency. This ensures that the update is mature. Do not set to less than 21 days.
+  #    default-days: 21
+  ## NOTE: Assigning PRs to teams currently does not work: https://github.com/dear-github/dear-github/issues/170
+  ##  assignees:
+  ##    - "@Storytel/sys-security-misc"  # Who to ping when Dependabot creates a pull request: https://docs.github.com/en/code-security/dependabot/working-with-dependabot/dependabot-options-reference#assignees--
+  #  groups:  # Group dependency updates to reduce the number of PRs created: https://docs.github.com/en/code-security/dependabot/working-with-dependabot/dependabot-options-reference#groups--
+  #    dev-dependencies:
+  #      applies-to: version-updates
+  #      dependency-type: development
+  #      patterns:
+  #        - "*"
+  #    storytel:
+  #      applies-to: version-updates
+  #      patterns:
+  #        - "@storytel*"
+  #      update-types:
+  #        - "minor"
+  #        - "patch"

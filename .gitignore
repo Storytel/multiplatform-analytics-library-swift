@@ -1,0 +1,13 @@
+# Ignore env files
+.env
+.env.test
+
+# Ignore log files
+*.log
+
+# Ignore IDE dirs
+.idea/
+.vscode/
+
+# Misc
+.DS_Store

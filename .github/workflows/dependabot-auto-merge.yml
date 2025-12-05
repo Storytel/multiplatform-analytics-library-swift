@@ -1,0 +1,12 @@
+name: Dependabot Auto Merge
+
+on:
+  # COMMENT THE FOLLOWING LINE TO DISABLE THE WORKFLOW
+  pull_request_target:
+
+jobs:
+  dependabot-auto-merge:
+    uses: storytel/actions-toolkit/.github/workflows/dependabot-auto-merge.yaml@main
+    with:
+        target: minor
+        merge_type: merge
