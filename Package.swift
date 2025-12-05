@@ -2,17 +2,17 @@
 import PackageDescription
 
 let package = Package(
-   name: "Shared",
+   name: "MultiplatformAnalytics",
    platforms: [
      .iOS(.v14),
    ],
    products: [
-      .library(name: "Shared", targets: ["Shared"])
+      .library(name: "MultiplatformAnalytics", targets: ["MultiplatformAnalytics"])
    ],
    targets: [
       .binaryTarget(
-         name: "Shared",
-         url: "https://github.com/Storytel/multiplatform-analytics-library-swift/releases/download/0.0.2/kotlin.xcframework.zip",
-         checksum:"0c156259083e932899e904facac24b8c7769e3b0bd89c7b34c39c407645eec30")
+         name: "MultiplatformAnalytics",
+         url: "https://github.com/Storytel/multiplatform-analytics-library-swift/releases/download/0.0.3/kotlin.xcframework.zip",
+         checksum:"49adc5da8c1894ccdde6d419cf13937f60e4b1817ba6202789cf4b2bb005701e")
    ]
 )
